@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/zhisheng/stats507/models/vilt_lora.py", line 12, in <module>
+    from peft import LoraConfig, get_peft_model
+ModuleNotFoundError: No module named 'peft'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_vilt_lora.py", line 18, in <module>
+    from models.vilt_lora import build_vilt_lora_model
+  File "/home/zhisheng/stats507/models/vilt_lora.py", line 14, in <module>
+    raise ImportError(
+ImportError: peft package is required for ViltLoRAClassifier. Install via `pip install peft`.

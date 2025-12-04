@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 13, in <module>
+    from transformers import AutoProcessor, AutoModelForCausalLM
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 57, in <module>
+    require_version_core(deps[pkg])
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/versions.py", line 116, in require_version_core
+    return require_version(requirement, hint)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/versions.py", line 110, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/versions.py", line 38, in _compare_versions
+    raise ValueError(
+ValueError: Unable to compare versions for numpy>=1.17: need=1.17 found=None. This is unusual. Consider reinstalling numpy.

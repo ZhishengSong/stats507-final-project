@@ -1,0 +1,24 @@
+2025-11-29 21:08:58 - INFO - zero_shot - Using device cuda
+Traceback (most recent call last):
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1023, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 725, in __getitem__
+    raise KeyError(key)
+KeyError: 'qwen3_vl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 142, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 62, in main
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 1025, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `qwen3_vl` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.

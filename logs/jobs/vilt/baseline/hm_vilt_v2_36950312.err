@@ -1,0 +1,14 @@
+Repo card metadata block was not found. Setting CardData to empty.
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 14, in <module>
+    from data import create_dataloader
+  File "/home/zhisheng/stats507/data/__init__.py", line 3, in <module>
+    from .datasets import HatefulMemesDataset, create_dataloader  # noqa: F401
+  File "/home/zhisheng/stats507/data/datasets.py", line 53
+    return Image.open(image).convert("RGB")
+    ^
+IndentationError: expected an indented block after 'if' statement on line 52

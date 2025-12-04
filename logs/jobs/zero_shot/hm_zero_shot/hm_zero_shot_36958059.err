@@ -1,0 +1,17 @@
+2025-11-29 20:27:11 - INFO - zero_shot - Using device cuda
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 119, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 62, in main
+    vl_pipe = pipeline(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 849, in pipeline
+    normalized_task, targeted_task, task_options = check_task(task)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 533, in check_task
+    return PIPELINE_REGISTRY.check_task(task)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1350, in check_task
+    raise KeyError(
+KeyError: "Unknown task image-text-to-text, available tasks are ['audio-classification', 'automatic-speech-recognition', 'depth-estimation', 'document-question-answering', 'feature-extraction', 'fill-mask', 'image-classification', 'image-feature-extraction', 'image-segmentation', 'image-to-image', 'image-to-text', 'mask-generation', 'ner', 'object-detection', 'question-answering', 'sentiment-analysis', 'summarization', 'table-question-answering', 'text-classification', 'text-generation', 'text-to-audio', 'text-to-speech', 'text2text-generation', 'token-classification', 'translation', 'video-classification', 'visual-question-answering', 'vqa', 'zero-shot-audio-classification', 'zero-shot-classification', 'zero-shot-image-classification', 'zero-shot-object-detection', 'translation_XX_to_YY']"

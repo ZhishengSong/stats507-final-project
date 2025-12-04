@@ -1,0 +1,9 @@
+========================================================================
+ViLT LoRA fine-tuning experiment (low-rank adapters)
+========================================================================
+Config: epochs=8, lr=1e-4, warmup=0.1, wd=0.0
+
+
+✓ ViLT LoRA experiment complete
+Results written to logs/predictions/vilt_lora_test_predictions.csv
+========================================================================

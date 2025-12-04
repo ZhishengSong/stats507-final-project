@@ -1,0 +1,33 @@
+Disabling PyTorch because PyTorch >= 2.2 is required but found 2.0.1+cu118
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/compat/__init__.py", line 28, in <module>
+    from pandas.compat.numpy import is_numpy_dev
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 21, in <module>
+    raise ImportError(
+ImportError: this version of pandas is incompatible with numpy < 1.22.4
+your numpy version is 1.22.3.
+Please upgrade numpy to >= 1.22.4 to use this pandas version
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_vilt_bitfit.py", line 14, in <module>
+    from data import create_dataloader
+  File "/home/zhisheng/stats507/data/__init__.py", line 3, in <module>
+    from .datasets import HatefulMemesDataset, create_dataloader  # noqa: F401
+  File "/home/zhisheng/stats507/data/datasets.py", line 8, in <module>
+    from datasets import Dataset as HFDataset
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/__init__.py", line 17, in <module>
+    from .arrow_dataset import Column, Dataset
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 59, in <module>
+    import pandas as pd
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/__init__.py", line 31, in <module>
+    raise ImportError(
+ImportError: C extension: None not built. If you want to import pandas from the source directory, you may need to run 'python setup.py build_ext' to build the C extensions first.

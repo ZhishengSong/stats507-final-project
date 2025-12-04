@@ -1,0 +1,97 @@
+2025-11-28 04:25:02 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2025-11-28 04:25:17 - INFO - train - Epoch 1/5
+2025-11-28 04:37:04 - INFO - train - Train metrics: {
+  "accuracy": 0.7174117647058823,
+  "auroc": 0.7362428937111123,
+  "macro_f1": 0.6636607821388374,
+  "loss": 0.5638987211339614
+}
+2025-11-28 04:38:18 - INFO - train - Val metrics: {
+  "accuracy": 0.6057692307692307,
+  "auroc": 0.6240497828883582,
+  "macro_f1": 0.5527754353726941,
+  "loss": 0.7737344301663912
+}
+2025-11-28 04:38:24 - INFO - train - Saved new best checkpoint with AUROC=0.6240
+2025-11-28 04:38:24 - INFO - train - Epoch 2/5
+2025-11-28 04:49:48 - INFO - train - Train metrics: {
+  "accuracy": 0.7910588235294118,
+  "auroc": 0.84871173197977,
+  "macro_f1": 0.7636625318881805,
+  "loss": 0.4551805330444785
+}
+2025-11-28 04:51:00 - INFO - train - Val metrics: {
+  "accuracy": 0.5932692307692308,
+  "auroc": 0.6299387711216995,
+  "macro_f1": 0.4860597564181197,
+  "loss": 0.8429981149159945
+}
+2025-11-28 04:51:06 - INFO - train - Saved new best checkpoint with AUROC=0.6299
+2025-11-28 04:51:06 - INFO - train - Epoch 3/5
+2025-11-28 05:02:19 - INFO - train - Train metrics: {
+  "accuracy": 0.8290588235294117,
+  "auroc": 0.9090128813204505,
+  "macro_f1": 0.81014276516959,
+  "loss": 0.3627746384424322
+}
+2025-11-28 05:03:31 - INFO - train - Val metrics: {
+  "accuracy": 0.5980769230769231,
+  "auroc": 0.6240007394245315,
+  "macro_f1": 0.5075021185384577,
+  "loss": 0.8540571066049429
+}
+2025-11-28 05:03:31 - INFO - train - Epoch 4/5
+2025-11-28 05:14:40 - INFO - train - Train metrics: {
+  "accuracy": 0.8589411764705882,
+  "auroc": 0.9438658247809486,
+  "macro_f1": 0.845098253821182,
+  "loss": 0.2859315143473008
+}
+2025-11-28 05:15:51 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.6115965156505239,
+  "macro_f1": 0.522880429518314,
+  "loss": 1.0987705207788028
+}
+2025-11-28 05:15:51 - INFO - train - Epoch 5/5
+2025-11-28 05:27:07 - INFO - train - Train metrics: {
+  "accuracy": 0.8770588235294118,
+  "auroc": 0.9598588916186659,
+  "macro_f1": 0.8661852317878929,
+  "loss": 0.23912696222697988
+}
+2025-11-28 05:28:17 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.6090594595410286,
+  "macro_f1": 0.5173567031577904,
+  "loss": 1.2273241290679344
+}
+2025-11-28 05:28:17 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-28 05:32:26 - INFO - train - Test metrics: {
+  "accuracy": 0.6203333333333333,
+  "auroc": 0.6509413947947214,
+  "macro_f1": 0.5182465018591287,
+  "loss": 0.8007294109066327
+}
+2025-11-28 05:32:26 - INFO - train - Saved test predictions to logs/test_predictions.csv
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+2025-11-28 05:37:27 - INFO - eval - Metrics: {
+  "accuracy": 0.6203333333333333,
+  "auroc": 0.6509413947947214,
+  "macro_f1": 0.5182465018591287,
+  "loss": 0.8007294109066327
+}
+2025-11-28 05:37:27 - INFO - eval - Predictions saved to logs/bert_test_predictions.csv

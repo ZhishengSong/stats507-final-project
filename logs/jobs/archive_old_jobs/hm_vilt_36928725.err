@@ -1,0 +1,58 @@
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'neuralcatcher/hateful_memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Repo card metadata block was not found. Setting CardData to empty.
+Generating train split:   0%|          | 0/8500 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 8500/8500 [00:00<00:00, 509628.68 examples/s]
+Generating validation split:   0%|          | 0/1040 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 1040/1040 [00:00<00:00, 357517.92 examples/s]
+Generating test split:   0%|          | 0/3000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3000/3000 [00:00<00:00, 695611.26 examples/s]
+The cache for model files in Transformers v4.22.0 has been updated. Migrating your old cache. This is a one-time only operation. You can interrupt this and resume the migration later on by calling `transformers.utils.move_cache()`.
+0it [00:00, ?it/s]0it [00:00, ?it/s]
+2025-11-27 23:06:57 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'neuralcatcher/hateful_memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Repo card metadata block was not found. Setting CardData to empty.
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'neuralcatcher/hateful_memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Repo card metadata block was not found. Setting CardData to empty.
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'neuralcatcher/hateful_memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-11-27 23:07:10 - INFO - train - Epoch 1/5
+Traceback (most recent call last):
+  File "/home/zhisheng/stats507/data/datasets.py", line 155, in __getitem__
+    image = _ensure_rgb(img_data)
+  File "/home/zhisheng/stats507/data/datasets.py", line 50, in _ensure_rgb
+    raise FileNotFoundError(f"Image file not found: {image}")
+FileNotFoundError: Image file not found: img/91372.png
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 217, in <module>
+    main()
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 168, in main
+    train_stats = train_one_epoch(
+  File "/home/zhisheng/stats507/train/loops.py", line 51, in train_one_epoch
+    for step, batch in enumerate(dataloader, start=1):
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zhisheng/stats507/data/datasets.py", line 157, in __getitem__
+    raise RuntimeError(f"Failed to load/convert image at index {index}. Image data type: {type(sample.get('img'))}. Error: {e}") from e
+RuntimeError: Failed to load/convert image at index 4646. Image data type: <class 'str'>. Error: Image file not found: img/91372.png

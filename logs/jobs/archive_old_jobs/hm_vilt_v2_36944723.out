@@ -1,0 +1,11 @@
+Pre-downloading dataset metadata...
+Downloading dataset metadata to: /scratch/stats507f25s001_class_root/stats507f25s001_class/zhisheng/hf_cache
+✓ Dataset metadata downloaded!
+  train: 8500 samples
+  validation: 1040 samples
+  test: 3000 samples
+
+Note: Images will be downloaded automatically during training.
+==========================================
+Training improved ViLT model
+==========================================

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 18, in <module>
+    from data.datasets import _ensure_rgb as load_rgb_image
+  File "/home/zhisheng/stats507/data/__init__.py", line 3, in <module>
+    from .datasets import HatefulMemesDataset, create_dataloader  # noqa: F401
+  File "/home/zhisheng/stats507/data/datasets.py", line 197
+    sample = self._dataset[index]
+    ^
+IndentationError: expected an indented block after 'try' statement on line 196

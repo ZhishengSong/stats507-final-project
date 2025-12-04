@@ -1,0 +1,611 @@
+2025-11-27 20:14:30 - INFO - train - Using device cuda
+2025-11-27 20:19:42 - INFO - train - Using device cuda
+2025-11-27 20:19:58 - INFO - train - Epoch 1/5
+2025-11-27 22:58:19 - INFO - train - Using device cuda
+2025-11-27 22:58:29 - INFO - train - Epoch 1/5
+2025-11-27 22:59:30 - INFO - train - Using device cuda
+2025-11-27 22:59:38 - INFO - train - Epoch 1/5
+2025-11-27 23:06:57 - INFO - train - Using device cuda
+2025-11-27 23:07:10 - INFO - train - Epoch 1/5
+2025-11-27 23:27:24 - INFO - train - Using device cuda
+2025-11-27 23:27:38 - INFO - train - Epoch 1/1
+2025-11-27 23:28:19 - INFO - train - Using device cuda
+2025-11-27 23:28:27 - INFO - train - Epoch 1/1
+2025-11-28 00:14:52 - INFO - train - Using device cuda
+2025-11-28 00:15:02 - INFO - train - Epoch 1/5
+2025-11-28 00:39:58 - INFO - train - Train metrics: {
+  "accuracy": 0.7085882352941176,
+  "auroc": 0.7297651575900825,
+  "macro_f1": 0.645704835182872,
+  "loss": 0.5688727381089155
+}
+2025-11-28 00:42:20 - INFO - train - Val metrics: {
+  "accuracy": 0.6461538461538462,
+  "auroc": 0.6926332944758198,
+  "macro_f1": 0.5967565198334429,
+  "loss": 0.6558259684305925
+}
+2025-11-28 00:42:25 - INFO - train - Saved new best checkpoint with AUROC=0.6926
+2025-11-28 00:42:25 - INFO - train - Epoch 2/5
+2025-11-28 00:58:14 - INFO - train - Train metrics: {
+  "accuracy": 0.8495294117647059,
+  "auroc": 0.9124461334373273,
+  "macro_f1": 0.8324336425895834,
+  "loss": 0.35417489433288574
+}
+2025-11-28 00:59:55 - INFO - train - Val metrics: {
+  "accuracy": 0.6509615384615385,
+  "auroc": 0.693274632079707,
+  "macro_f1": 0.6100124892694552,
+  "loss": 0.7654326548943153
+}
+2025-11-28 01:00:01 - INFO - train - Saved new best checkpoint with AUROC=0.6933
+2025-11-28 01:00:01 - INFO - train - Epoch 3/5
+2025-11-28 01:16:04 - INFO - train - Train metrics: {
+  "accuracy": 0.9495294117647058,
+  "auroc": 0.9860629079141718,
+  "macro_f1": 0.9445162748076272,
+  "loss": 0.14329443070467782
+}
+2025-11-28 01:17:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6692307692307692,
+  "auroc": 0.6915317028267898,
+  "macro_f1": 0.6341608072676999,
+  "loss": 1.5196931838989258
+}
+2025-11-28 01:17:54 - INFO - train - Epoch 4/5
+2025-11-28 01:33:14 - INFO - train - Train metrics: {
+  "accuracy": 0.9870588235294118,
+  "auroc": 0.9983848567417002,
+  "macro_f1": 0.9858333333333333,
+  "loss": 0.042713603917290184
+}
+2025-11-28 01:34:57 - INFO - train - Val metrics: {
+  "accuracy": 0.6701923076923076,
+  "auroc": 0.6876497240362016,
+  "macro_f1": 0.6304641263665172,
+  "loss": 1.957155455992772
+}
+2025-11-28 01:34:57 - INFO - train - Epoch 5/5
+2025-11-28 01:50:24 - INFO - train - Train metrics: {
+  "accuracy": 0.9977647058823529,
+  "auroc": 0.9998684364711024,
+  "macro_f1": 0.9975587280468241,
+  "loss": 0.007231814707026762
+}
+2025-11-28 01:52:09 - INFO - train - Val metrics: {
+  "accuracy": 0.6653846153846154,
+  "auroc": 0.6856125340003244,
+  "macro_f1": 0.6308731677266961,
+  "loss": 2.210582370024461
+}
+2025-11-28 01:52:09 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-28 01:59:59 - INFO - train - Test metrics: {
+  "accuracy": 0.687,
+  "auroc": 0.7394515212609971,
+  "macro_f1": 0.6433996206642895,
+  "loss": 0.682373753786087
+}
+2025-11-28 01:59:59 - INFO - train - Saved test predictions to logs/test_predictions.csv
+2025-11-28 04:25:02 - INFO - train - Using device cuda
+2025-11-28 04:25:17 - INFO - train - Epoch 1/5
+2025-11-28 04:37:04 - INFO - train - Train metrics: {
+  "accuracy": 0.7174117647058823,
+  "auroc": 0.7362428937111123,
+  "macro_f1": 0.6636607821388374,
+  "loss": 0.5638987211339614
+}
+2025-11-28 04:38:18 - INFO - train - Val metrics: {
+  "accuracy": 0.6057692307692307,
+  "auroc": 0.6240497828883582,
+  "macro_f1": 0.5527754353726941,
+  "loss": 0.7737344301663912
+}
+2025-11-28 04:38:24 - INFO - train - Saved new best checkpoint with AUROC=0.6240
+2025-11-28 04:38:24 - INFO - train - Epoch 2/5
+2025-11-28 04:49:48 - INFO - train - Train metrics: {
+  "accuracy": 0.7910588235294118,
+  "auroc": 0.84871173197977,
+  "macro_f1": 0.7636625318881805,
+  "loss": 0.4551805330444785
+}
+2025-11-28 04:51:00 - INFO - train - Val metrics: {
+  "accuracy": 0.5932692307692308,
+  "auroc": 0.6299387711216995,
+  "macro_f1": 0.4860597564181197,
+  "loss": 0.8429981149159945
+}
+2025-11-28 04:51:06 - INFO - train - Saved new best checkpoint with AUROC=0.6299
+2025-11-28 04:51:06 - INFO - train - Epoch 3/5
+2025-11-28 05:02:19 - INFO - train - Train metrics: {
+  "accuracy": 0.8290588235294117,
+  "auroc": 0.9090128813204505,
+  "macro_f1": 0.81014276516959,
+  "loss": 0.3627746384424322
+}
+2025-11-28 05:03:31 - INFO - train - Val metrics: {
+  "accuracy": 0.5980769230769231,
+  "auroc": 0.6240007394245315,
+  "macro_f1": 0.5075021185384577,
+  "loss": 0.8540571066049429
+}
+2025-11-28 05:03:31 - INFO - train - Epoch 4/5
+2025-11-28 05:14:40 - INFO - train - Train metrics: {
+  "accuracy": 0.8589411764705882,
+  "auroc": 0.9438658247809486,
+  "macro_f1": 0.845098253821182,
+  "loss": 0.2859315143473008
+}
+2025-11-28 05:15:51 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.6115965156505239,
+  "macro_f1": 0.522880429518314,
+  "loss": 1.0987705207788028
+}
+2025-11-28 05:15:51 - INFO - train - Epoch 5/5
+2025-11-28 05:27:07 - INFO - train - Train metrics: {
+  "accuracy": 0.8770588235294118,
+  "auroc": 0.9598588916186659,
+  "macro_f1": 0.8661852317878929,
+  "loss": 0.23912696222697988
+}
+2025-11-28 05:28:17 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.6090594595410286,
+  "macro_f1": 0.5173567031577904,
+  "loss": 1.2273241290679344
+}
+2025-11-28 05:28:17 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-28 05:32:26 - INFO - train - Test metrics: {
+  "accuracy": 0.6203333333333333,
+  "auroc": 0.6509413947947214,
+  "macro_f1": 0.5182465018591287,
+  "loss": 0.8007294109066327
+}
+2025-11-28 05:32:26 - INFO - train - Saved test predictions to logs/test_predictions.csv
+2025-11-28 10:12:55 - INFO - train - Using device cuda
+2025-11-28 10:13:18 - INFO - train - Epoch 1/5
+2025-11-28 10:19:11 - INFO - train - Using device cuda
+2025-11-28 10:26:27 - INFO - train - Using device cuda
+2025-11-28 10:26:39 - INFO - train - Epoch 1/5
+2025-11-28 10:39:35 - INFO - train - Train metrics: {
+  "accuracy": 0.6341176470588236,
+  "auroc": 0.5872840616133097,
+  "macro_f1": 0.5226127858219374,
+  "loss": 0.6498520634034101
+}
+2025-11-28 10:40:56 - INFO - train - Val metrics: {
+  "accuracy": 0.5769230769230769,
+  "auroc": 0.5369240694002739,
+  "macro_f1": 0.4729057911250973,
+  "loss": 0.7062933050669157
+}
+2025-11-28 10:41:00 - INFO - train - Saved new best checkpoint with AUROC=0.5369
+2025-11-28 10:41:00 - INFO - train - Epoch 2/5
+2025-11-28 10:54:05 - INFO - train - Train metrics: {
+  "accuracy": 0.7235294117647059,
+  "auroc": 0.7627404350685638,
+  "macro_f1": 0.6693778510470668,
+  "loss": 0.5463725819307215
+}
+2025-11-28 10:55:27 - INFO - train - Val metrics: {
+  "accuracy": 0.5846153846153846,
+  "auroc": 0.5408513190805482,
+  "macro_f1": 0.4447273320512757,
+  "loss": 0.8518138271111708
+}
+2025-11-28 10:55:32 - INFO - train - Saved new best checkpoint with AUROC=0.5409
+2025-11-28 10:55:32 - INFO - train - Epoch 3/5
+2025-11-28 11:08:41 - INFO - train - Train metrics: {
+  "accuracy": 0.8278823529411765,
+  "auroc": 0.9056626647059651,
+  "macro_f1": 0.8064415980890179,
+  "loss": 0.3863552582824931
+}
+2025-11-28 11:10:04 - INFO - train - Val metrics: {
+  "accuracy": 0.5711538461538461,
+  "auroc": 0.548720908737659,
+  "macro_f1": 0.5177796906903535,
+  "loss": 0.8559402621709383
+}
+2025-11-28 11:10:09 - INFO - train - Saved new best checkpoint with AUROC=0.5487
+2025-11-28 11:10:09 - INFO - train - Epoch 4/5
+2025-11-28 11:22:59 - INFO - train - Train metrics: {
+  "accuracy": 0.9254117647058824,
+  "auroc": 0.9783410594423604,
+  "macro_f1": 0.9178167141618654,
+  "loss": 0.21626803785913132
+}
+2025-11-28 11:24:23 - INFO - train - Val metrics: {
+  "accuracy": 0.5673076923076923,
+  "auroc": 0.5335098898031093,
+  "macro_f1": 0.47908318640807823,
+  "loss": 1.0783106157412896
+}
+2025-11-28 11:24:23 - INFO - train - Epoch 5/5
+2025-11-28 11:37:08 - INFO - train - Train metrics: {
+  "accuracy": 0.9735294117647059,
+  "auroc": 0.9969102513733643,
+  "macro_f1": 0.9710424355278564,
+  "loss": 0.10979644227729124
+}
+2025-11-28 11:38:33 - INFO - train - Val metrics: {
+  "accuracy": 0.5701923076923077,
+  "auroc": 0.5314726997672321,
+  "macro_f1": 0.4994395506068035,
+  "loss": 1.1757239025372725
+}
+2025-11-28 11:38:33 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-28 11:43:15 - INFO - train - Test metrics: {
+  "accuracy": 0.586,
+  "auroc": 0.5622562316715543,
+  "macro_f1": 0.5314046892732672,
+  "loss": 0.8338208004633586
+}
+2025-11-28 11:43:15 - INFO - train - Saved test predictions to logs/test_predictions.csv
+2025-11-28 16:00:59 - INFO - train - Using device cuda
+2025-11-28 16:01:09 - INFO - train - Epoch 1/10
+2025-11-28 16:05:58 - INFO - train - Using device cuda
+2025-11-28 16:06:08 - INFO - train - Epoch 1/10
+2025-11-28 16:23:35 - INFO - train - Train metrics: {
+  "accuracy": 0.6971764705882353,
+  "auroc": 0.7000153621722764,
+  "macro_f1": 0.6195247668004534,
+  "loss": 0.586980666216682
+}
+2025-11-28 16:25:27 - INFO - train - Val metrics: {
+  "accuracy": 0.6423076923076924,
+  "auroc": 0.6856842129089942,
+  "macro_f1": 0.6274038461538463,
+  "loss": 0.6419112214675317
+}
+2025-11-28 16:25:33 - INFO - train - Saved new best checkpoint with AUROC=0.6857
+2025-11-28 16:25:33 - INFO - train - Epoch 2/10
+2025-11-28 16:42:16 - INFO - train - Train metrics: {
+  "accuracy": 0.8030588235294117,
+  "auroc": 0.8668998610575521,
+  "macro_f1": 0.778545292366905,
+  "loss": 0.4312165017969468
+}
+2025-11-28 16:44:08 - INFO - train - Val metrics: {
+  "accuracy": 0.6134615384615385,
+  "auroc": 0.6830547287330564,
+  "macro_f1": 0.516359648513958,
+  "loss": 0.7895213585633498
+}
+2025-11-28 16:44:08 - INFO - train - Epoch 3/10
+2025-11-28 17:01:04 - INFO - train - Train metrics: {
+  "accuracy": 0.9135294117647059,
+  "auroc": 0.9664102356304617,
+  "macro_f1": 0.9047469326110964,
+  "loss": 0.22631397909276627
+}
+2025-11-28 17:02:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6442307692307693,
+  "auroc": 0.6813117994801393,
+  "macro_f1": 0.5787629994526546,
+  "loss": 1.3099400391945473
+}
+2025-11-28 17:02:54 - INFO - train - Epoch 4/10
+2025-11-28 17:19:34 - INFO - train - Train metrics: {
+  "accuracy": 0.9654117647058823,
+  "auroc": 0.9931672176078294,
+  "macro_f1": 0.962147824816195,
+  "loss": 0.10556084916170906
+}
+2025-11-28 17:21:24 - INFO - train - Val metrics: {
+  "accuracy": 0.6711538461538461,
+  "auroc": 0.7091986675268136,
+  "macro_f1": 0.6204865556978233,
+  "loss": 1.5224195746275095
+}
+2025-11-28 17:21:29 - INFO - train - Saved new best checkpoint with AUROC=0.7092
+2025-11-28 17:21:29 - INFO - train - Epoch 5/10
+2025-11-28 17:38:05 - INFO - train - Train metrics: {
+  "accuracy": 0.9882352941176471,
+  "auroc": 0.9986484370500543,
+  "macro_f1": 0.9871598105090154,
+  "loss": 0.042273995034834914
+}
+2025-11-28 17:39:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6461538461538462,
+  "auroc": 0.7068181732441496,
+  "macro_f1": 0.5909695236385244,
+  "loss": 2.4291653064581062
+}
+2025-11-28 17:39:54 - INFO - train - Epoch 6/10
+2025-11-28 17:56:19 - INFO - train - Train metrics: {
+  "accuracy": 0.9947058823529412,
+  "auroc": 0.9997111585271629,
+  "macro_f1": 0.9942180401108993,
+  "loss": 0.01715912870799794
+}
+2025-11-28 17:58:08 - INFO - train - Val metrics: {
+  "accuracy": 0.6625,
+  "auroc": 0.7287179661298293,
+  "macro_f1": 0.629355484277764,
+  "loss": 2.2669238090515136
+}
+2025-11-28 17:58:14 - INFO - train - Saved new best checkpoint with AUROC=0.7287
+2025-11-28 17:58:14 - INFO - train - Epoch 7/10
+2025-11-28 18:03:51 - INFO - train - Using device cuda
+2025-11-28 18:04:05 - INFO - train - Epoch 1/10
+2025-11-28 18:16:49 - INFO - train - Train metrics: {
+  "accuracy": 0.7014117647058824,
+  "auroc": 0.7155599224736071,
+  "macro_f1": 0.63986059585117,
+  "loss": 0.5785236026820014
+}
+2025-11-28 18:18:10 - INFO - train - Val metrics: {
+  "accuracy": 0.5990384615384615,
+  "auroc": 0.6206582387360368,
+  "macro_f1": 0.5281938139080997,
+  "loss": 0.729350510927347
+}
+2025-11-28 18:18:16 - INFO - train - Saved new best checkpoint with AUROC=0.6207
+2025-11-28 18:18:16 - INFO - train - Epoch 2/10
+2025-11-28 18:31:02 - INFO - train - Train metrics: {
+  "accuracy": 0.7794117647058824,
+  "auroc": 0.8266440198514076,
+  "macro_f1": 0.7482858920745616,
+  "loss": 0.4807724860555985
+}
+2025-11-28 18:32:23 - INFO - train - Val metrics: {
+  "accuracy": 0.5903846153846154,
+  "auroc": 0.6171723802302025,
+  "macro_f1": 0.4806802357475419,
+  "loss": 0.8459545318896954
+}
+2025-11-28 18:32:23 - INFO - train - Epoch 3/10
+2025-11-28 18:45:03 - INFO - train - Train metrics: {
+  "accuracy": 0.8191764705882353,
+  "auroc": 0.8982116183347466,
+  "macro_f1": 0.7994307730350523,
+  "loss": 0.38080423829134774
+}
+2025-11-28 18:46:24 - INFO - train - Val metrics: {
+  "accuracy": 0.5951923076923077,
+  "auroc": 0.6193849949636135,
+  "macro_f1": 0.5211299338633453,
+  "loss": 0.8735867307736324
+}
+2025-11-28 18:46:24 - INFO - train - Epoch 4/10
+2025-11-28 18:59:19 - INFO - train - Train metrics: {
+  "accuracy": 0.8498823529411764,
+  "auroc": 0.9385975122345924,
+  "macro_f1": 0.8358649815592507,
+  "loss": 0.294818723636515
+}
+2025-11-28 19:00:40 - INFO - train - Val metrics: {
+  "accuracy": 0.5798076923076924,
+  "auroc": 0.5852696070109518,
+  "macro_f1": 0.5207802820614209,
+  "loss": 1.024831816324821
+}
+2025-11-28 19:00:40 - INFO - train - Epoch 5/10
+2025-11-28 19:13:28 - INFO - train - Train metrics: {
+  "accuracy": 0.8691764705882353,
+  "auroc": 0.9544603752950886,
+  "macro_f1": 0.858606761409112,
+  "loss": 0.24899696989620432
+}
+2025-11-28 19:14:49 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.5782337562388945,
+  "macro_f1": 0.5375989684074791,
+  "loss": 1.1997807062589205
+}
+2025-11-28 19:14:49 - INFO - train - Epoch 6/10
+2025-11-28 19:27:25 - INFO - train - Train metrics: {
+  "accuracy": 0.8758823529411764,
+  "auroc": 0.9626442069532382,
+  "macro_f1": 0.8664315862584816,
+  "loss": 0.2173512548488729
+}
+2025-11-28 19:28:45 - INFO - train - Val metrics: {
+  "accuracy": 0.5990384615384615,
+  "auroc": 0.5697756450158636,
+  "macro_f1": 0.5101603770707889,
+  "loss": 1.5679066992723025
+}
+2025-11-28 19:28:45 - INFO - train - Epoch 7/10
+2025-11-28 19:41:25 - INFO - train - Train metrics: {
+  "accuracy": 0.8854117647058823,
+  "auroc": 0.9687868096110148,
+  "macro_f1": 0.876990644692046,
+  "loss": 0.19566146812719457
+}
+2025-11-28 19:42:45 - INFO - train - Val metrics: {
+  "accuracy": 0.5778846153846153,
+  "auroc": 0.5565018429024677,
+  "macro_f1": 0.5229213231890373,
+  "loss": 1.805490922010862
+}
+2025-11-28 19:42:45 - INFO - train - Epoch 8/10
+2025-11-28 19:55:17 - INFO - train - Train metrics: {
+  "accuracy": 0.8911764705882353,
+  "auroc": 0.9723583937984687,
+  "macro_f1": 0.883248303202486,
+  "loss": 0.17678755122773787
+}
+2025-11-28 19:56:38 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.5580089862716027,
+  "macro_f1": 0.5349971108489955,
+  "loss": 2.050451723428873
+}
+2025-11-28 19:56:38 - INFO - train - Epoch 9/10
+2025-11-28 20:09:16 - INFO - train - Train metrics: {
+  "accuracy": 0.8978823529411765,
+  "auroc": 0.9759033570697628,
+  "macro_f1": 0.8911358558415632,
+  "loss": 0.16141374939329484
+}
+2025-11-28 20:10:37 - INFO - train - Val metrics: {
+  "accuracy": 0.5836538461538462,
+  "auroc": 0.5503242527473771,
+  "macro_f1": 0.530133065664718,
+  "loss": 2.2471625942450304
+}
+2025-11-28 20:10:37 - INFO - train - Epoch 10/10
+2025-11-28 20:23:32 - INFO - train - Train metrics: {
+  "accuracy": 0.8996470588235295,
+  "auroc": 0.9777791798328399,
+  "macro_f1": 0.8932092088672192,
+  "loss": 0.15391307505439308
+}
+2025-11-28 20:24:54 - INFO - train - Val metrics: {
+  "accuracy": 0.5894230769230769,
+  "auroc": 0.5491773902086611,
+  "macro_f1": 0.5242212401232087,
+  "loss": 2.4586865085821885
+}
+2025-11-28 20:24:54 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-28 20:29:26 - INFO - train - Test metrics: {
+  "accuracy": 0.6246666666666667,
+  "auroc": 0.6514089992668622,
+  "macro_f1": 0.553457885711657,
+  "loss": 0.6939873938163121
+}
+2025-11-28 20:29:26 - INFO - train - Saved test predictions to logs/test_predictions.csv
+2025-12-02 13:38:26 - INFO - train - Using device cuda
+2025-12-02 13:38:39 - INFO - train - Epoch 1/10
+2025-12-02 13:50:43 - INFO - train - Train metrics: {
+  "accuracy": 0.7058823529411765,
+  "auroc": 0.717426680225506,
+  "macro_f1": 0.6472258739186268,
+  "loss": 0.5763125897295335
+}
+2025-12-02 13:51:59 - INFO - train - Val metrics: {
+  "accuracy": 0.5951923076923077,
+  "auroc": 0.6194585601593535,
+  "macro_f1": 0.5501762453524343,
+  "loss": 0.7300096603540274
+}
+2025-12-02 13:52:05 - INFO - train - Saved new best checkpoint with AUROC=0.6195
+2025-12-02 13:52:05 - INFO - train - Epoch 2/10
+2025-12-02 14:05:11 - INFO - train - Train metrics: {
+  "accuracy": 0.7787058823529411,
+  "auroc": 0.8287739650945098,
+  "macro_f1": 0.7479547541540883,
+  "loss": 0.4798242134206435
+}
+2025-12-02 14:06:30 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.6247967525681799,
+  "macro_f1": 0.43338149540058585,
+  "loss": 0.8938982587594252
+}
+2025-12-02 14:06:35 - INFO - train - Saved new best checkpoint with AUROC=0.6248
+2025-12-02 14:06:35 - INFO - train - Epoch 3/10
+2025-12-02 14:21:40 - INFO - train - Train metrics: {
+  "accuracy": 0.82,
+  "auroc": 0.896605026403658,
+  "macro_f1": 0.8005560322989729,
+  "loss": 0.3843191855654997
+}
+2025-12-02 14:23:07 - INFO - train - Val metrics: {
+  "accuracy": 0.5913461538461539,
+  "auroc": 0.605879179540576,
+  "macro_f1": 0.5332190670506521,
+  "loss": 0.8750603199005127
+}
+2025-12-02 14:23:07 - INFO - train - Epoch 4/10
+2025-12-02 14:35:18 - INFO - train - Train metrics: {
+  "accuracy": 0.8503529411764705,
+  "auroc": 0.9368105567977643,
+  "macro_f1": 0.8365510641868144,
+  "loss": 0.30084979368658626
+}
+2025-12-02 14:36:34 - INFO - train - Val metrics: {
+  "accuracy": 0.5826923076923077,
+  "auroc": 0.5824646981374801,
+  "macro_f1": 0.5191729980100477,
+  "loss": 1.0808458520815922
+}
+2025-12-02 14:36:34 - INFO - train - Epoch 5/10
+2025-12-02 14:49:24 - INFO - train - Train metrics: {
+  "accuracy": 0.8681176470588235,
+  "auroc": 0.9537621579174502,
+  "macro_f1": 0.8579797798441404,
+  "loss": 0.2515476843469283
+}
+2025-12-02 14:50:37 - INFO - train - Val metrics: {
+  "accuracy": 0.5875,
+  "auroc": 0.5716638183731906,
+  "macro_f1": 0.5446598880020085,
+  "loss": 1.186719440955382
+}
+2025-12-02 14:50:37 - INFO - train - Epoch 6/10
+2025-12-02 15:02:06 - INFO - train - Train metrics: {
+  "accuracy": 0.8788235294117647,
+  "auroc": 0.9630664551739124,
+  "macro_f1": 0.8696755580833486,
+  "loss": 0.22130398632147733
+}
+2025-12-02 15:03:19 - INFO - train - Val metrics: {
+  "accuracy": 0.5875,
+  "auroc": 0.5664218266049473,
+  "macro_f1": 0.5010015534983912,
+  "loss": 1.610120782485375
+}
+2025-12-02 15:03:19 - INFO - train - Epoch 7/10
+2025-12-02 15:14:54 - INFO - train - Train metrics: {
+  "accuracy": 0.8849411764705882,
+  "auroc": 0.9677345733301691,
+  "macro_f1": 0.8767602762775761,
+  "loss": 0.19994959260435666
+}
+2025-12-02 15:16:09 - INFO - train - Val metrics: {
+  "accuracy": 0.5855769230769231,
+  "auroc": 0.5651089708040486,
+  "macro_f1": 0.5443006574619954,
+  "loss": 1.5275606531363266
+}
+2025-12-02 15:16:09 - INFO - train - Epoch 8/10
+2025-12-02 15:27:44 - INFO - train - Train metrics: {
+  "accuracy": 0.892,
+  "auroc": 0.9723968294458638,
+  "macro_f1": 0.8842607631260575,
+  "loss": 0.17676215365704367
+}
+2025-12-02 15:28:58 - INFO - train - Val metrics: {
+  "accuracy": 0.5798076923076924,
+  "auroc": 0.547662701691245,
+  "macro_f1": 0.5271699381288422,
+  "loss": 2.0054800473726715
+}
+2025-12-02 15:28:58 - INFO - train - Epoch 9/10
+2025-12-02 15:40:42 - INFO - train - Train metrics: {
+  "accuracy": 0.8984705882352941,
+  "auroc": 0.9754410414996815,
+  "macro_f1": 0.8912445913810001,
+  "loss": 0.16403539254034266
+}
+2025-12-02 15:41:58 - INFO - train - Val metrics: {
+  "accuracy": 0.5846153846153846,
+  "auroc": 0.5605875406966436,
+  "macro_f1": 0.5393530765161115,
+  "loss": 2.096857414795802
+}
+2025-12-02 15:41:58 - INFO - train - Epoch 10/10
+2025-12-02 15:53:56 - INFO - train - Train metrics: {
+  "accuracy": 0.9050588235294118,
+  "auroc": 0.978177164040261,
+  "macro_f1": 0.8985758163848341,
+  "loss": 0.1524047112605151
+}
+2025-12-02 15:55:15 - INFO - train - Val metrics: {
+  "accuracy": 0.5817307692307693,
+  "auroc": 0.5569771872441723,
+  "macro_f1": 0.5153073523503415,
+  "loss": 2.2882331187908465
+}
+2025-12-02 15:55:15 - INFO - train - Evaluating best checkpoint on test split.
+2025-12-02 15:59:23 - INFO - train - Test metrics: {
+  "accuracy": 0.6083333333333333,
+  "auroc": 0.6509228372434018,
+  "macro_f1": 0.458255638482999,
+  "loss": 0.8434450428287188
+}
+2025-12-02 15:59:23 - INFO - train - Saved test predictions to logs/predictions/bert_v2/test_predictions.csv

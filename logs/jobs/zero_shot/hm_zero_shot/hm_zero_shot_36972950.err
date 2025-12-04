@@ -1,0 +1,34 @@
+Disabling PyTorch because PyTorch >= 2.2 is required but found 2.0.1+cu118
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+2025-11-30 15:43:39 - INFO - zero_shot - Using device cuda
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 142, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 61, in main
+    processor = AutoProcessor.from_pretrained(args.model_name, trust_remote_code=True)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 382, in from_pretrained
+    return processor_class.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/processing_utils.py", line 1401, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/processing_utils.py", line 1470, in _get_arguments_from_pretrained
+    sub_processor = auto_processor_class.from_pretrained(pretrained_model_name_or_path, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/image_processing_auto.py", line 608, in from_pretrained
+    return image_processor_class.from_dict(config_dict, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1790, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1776, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+Qwen2VLImageProcessorFast requires the PyTorch library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+

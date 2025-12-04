@@ -1,0 +1,17 @@
+==========================================
+使用 huggingface_hub 下载完整数据集
+==========================================
+开始时间: Thu Nov 27 23:59:42 EST 2025
+
+检查并安装依赖...
+
+======================================================================
+使用 huggingface_hub 下载完整数据集（包括 LFS 图片）
+======================================================================
+缓存目录: /scratch/stats507f25s001_class_root/stats507f25s001_class/zhisheng/hf_cache
+
+开始下载...这可能需要几分钟
+下载大小约: 3-4 GB
+
+
+✗ 错误: LocalEntryNotFoundError: An error happened while trying to locate the file on the Hub and we cannot find the requested files in the local cache. Please check your connection and try again or make sure your Internet connection is on.

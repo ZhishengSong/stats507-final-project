@@ -1,0 +1,16 @@
+2025-12-02 15:59:36 - INFO - train - Using device cuda
+2025-12-02 15:59:50 - INFO - train - Epoch 1/10
+2025-12-02 16:12:53 - INFO - train - Train metrics: {
+  "accuracy": 0.6304705882352941,
+  "auroc": 0.5685116623483975,
+  "macro_f1": 0.5099733819839025,
+  "loss": 0.6569749154203078
+}
+2025-12-02 16:14:17 - INFO - train - Val metrics: {
+  "accuracy": 0.5634615384615385,
+  "auroc": 0.5412059410497565,
+  "macro_f1": 0.51258588794926,
+  "loss": 0.6981478012525119
+}
+2025-12-02 16:14:21 - INFO - train - Saved new best checkpoint with AUROC=0.5412
+2025-12-02 16:14:21 - INFO - train - Epoch 2/10

@@ -1,0 +1,14 @@
+2025-11-28 05:37:27 - INFO - eval - Metrics: {
+  "accuracy": 0.6203333333333333,
+  "auroc": 0.6509413947947214,
+  "macro_f1": 0.5182465018591287,
+  "loss": 0.8007294109066327
+}
+2025-11-28 05:37:27 - INFO - eval - Predictions saved to logs/bert_test_predictions.csv
+2025-11-28 11:46:35 - INFO - eval - Metrics: {
+  "accuracy": 0.586,
+  "auroc": 0.5622562316715543,
+  "macro_f1": 0.5314046892732672,
+  "loss": 0.8338208004633586
+}
+2025-11-28 11:46:35 - INFO - eval - Predictions saved to logs/vit_test_predictions.csv

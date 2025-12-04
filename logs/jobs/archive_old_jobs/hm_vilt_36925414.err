@@ -1,0 +1,42 @@
+Disabling PyTorch because PyTorch >= 2.1 is required but found 2.0.1+cu118
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
+  warnings.warn(_BETA_TRANSFORMS_WARNING)
+2025-11-27 20:14:30 - INFO - train - Using device cuda
+Repo card metadata block was not found. Setting CardData to empty.
+Generating train split:   0%|          | 0/8500 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 8500/8500 [00:00<00:00, 264393.29 examples/s]
+Generating validation split:   0%|          | 0/1040 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 1040/1040 [00:00<00:00, 227618.25 examples/s]
+Generating test split:   0%|          | 0/3000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3000/3000 [00:00<00:00, 433072.17 examples/s]
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/stats507-final-project/train/run_finetune.py", line 217, in <module>
+    main()
+  File "/home/zhisheng/stats507/stats507-final-project/train/run_finetune.py", line 141, in main
+    model = build_model_from_args(args)
+  File "/home/zhisheng/stats507/stats507-final-project/train/run_finetune.py", line 122, in build_model_from_args
+    return build_model(
+  File "/home/zhisheng/stats507/stats507-final-project/models/__init__.py", line 14, in build_model
+    return build_vilt_model(**kwargs)
+  File "/home/zhisheng/stats507/stats507-final-project/models/vilt.py", line 64, in build_vilt_model
+    return ViltClassifier(**kwargs)
+  File "/home/zhisheng/stats507/stats507-final-project/models/vilt.py", line 28, in __init__
+    self.model = ViltModel.from_pretrained(model_name, config=self.config)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2157, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 2143, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+ViltModel requires the PyTorch library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+

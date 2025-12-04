@@ -1,0 +1,67 @@
+2025-11-27 22:58:19 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Casting the dataset:   0%|          | 0/8500 [00:00<?, ? examples/s]Casting the dataset: 100%|██████████| 8500/8500 [00:00<00:00, 264579.69 examples/s]
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py:560: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Repo card metadata block was not found. Setting CardData to empty.
+Casting the dataset:   0%|          | 0/1040 [00:00<?, ? examples/s]Casting the dataset: 100%|██████████| 1040/1040 [00:00<00:00, 76980.08 examples/s]
+Repo card metadata block was not found. Setting CardData to empty.
+Casting the dataset:   0%|          | 0/3000 [00:00<?, ? examples/s]Casting the dataset: 100%|██████████| 3000/3000 [00:00<00:00, 189684.52 examples/s]
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-11-27 22:58:29 - INFO - train - Epoch 1/5
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 217, in <module>
+    main()
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 168, in main
+    train_stats = train_one_epoch(
+  File "/home/zhisheng/stats507/train/loops.py", line 51, in train_one_epoch
+    for step, batch in enumerate(dataloader, start=1):
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1345, in _next_data
+    return self._process_data(data)
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1371, in _process_data
+    data.reraise()
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py", line 644, in reraise
+    raise exception
+FileNotFoundError: Caught FileNotFoundError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zhisheng/stats507/data/datasets.py", line 122, in __getitem__
+    sample = self._dataset[index]
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 2876, in __getitem__
+    return self._getitem(key)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 2858, in _getitem
+    formatted_output = format_table(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/formatting/formatting.py", line 666, in format_table
+    formatted_output = formatter(pa_table_to_format, query_type=query_type)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/formatting/formatting.py", line 411, in __call__
+    return self.format_row(pa_table)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/formatting/formatting.py", line 460, in format_row
+    row = self.python_features_decoder.decode_row(row)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/formatting/formatting.py", line 224, in decode_row
+    return self.features.decode_example(row, token_per_repo_id=self.token_per_repo_id) if self.features else row
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/features/features.py", line 2105, in decode_example
+    return {
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/features/features.py", line 2106, in <dictcomp>
+    column_name: decode_nested_example(feature, value, token_per_repo_id=token_per_repo_id)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/features/features.py", line 1414, in decode_nested_example
+    return schema.decode_example(obj, token_per_repo_id=token_per_repo_id) if obj is not None else None
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/features/image.py", line 175, in decode_example
+    image = PIL.Image.open(path)
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/PIL/Image.py", line 3218, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'img/91372.png'
+

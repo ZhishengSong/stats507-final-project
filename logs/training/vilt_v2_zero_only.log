@@ -1,0 +1,17 @@
+2025-12-02 19:17:42 - INFO - train - Using device cuda
+2025-12-02 19:17:55 - INFO - train - Skip-training enabled; running zero-shot evaluation only.
+2025-12-02 19:17:55 - INFO - train - Training loop skipped; evaluating pretrained weights only.
+2025-12-02 19:19:42 - INFO - train - Val metrics (zero-shot): {
+  "accuracy": 0.5038461538461538,
+  "auroc": 0.4546630902663815,
+  "macro_f1": 0.470223780697286,
+  "loss": 0.705408369577848
+}
+2025-12-02 19:19:42 - INFO - train - Evaluating pretrained weights on test split (zero-shot).
+2025-12-02 19:25:11 - INFO - train - Test metrics: {
+  "accuracy": 0.49133333333333334,
+  "auroc": 0.4228578629032258,
+  "macro_f1": 0.439286951332851,
+  "loss": 0.706952474117279
+}
+2025-12-02 19:25:11 - INFO - train - Saved test predictions to logs/predictions/vilt_v2_zero_only/test_predictions.csv

@@ -1,0 +1,4 @@
+==== Training vit ====
+HF_DATASETS_CACHE: /scratch/stats507f25s001_class_root/stats507f25s001_class/zhisheng/hf_cache
+==== Evaluating vit from checkpoints/vit/best.pt ====
+==== Pipeline finished ====

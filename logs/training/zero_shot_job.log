@@ -1,0 +1,68 @@
+2025-12-01 22:34:19 - INFO - zero_shot - Using device cuda
+2025-12-01 22:39:33 - INFO - zero_shot - Progress saved after 25 samples.
+2025-12-01 22:43:58 - INFO - zero_shot - Progress saved after 50 samples.
+2025-12-01 22:49:15 - INFO - zero_shot - Progress saved after 75 samples.
+2025-12-01 22:53:56 - INFO - zero_shot - Progress saved after 100 samples.
+2025-12-01 22:59:41 - INFO - zero_shot - Progress saved after 125 samples.
+2025-12-01 23:05:28 - INFO - zero_shot - Progress saved after 150 samples.
+2025-12-01 23:11:06 - INFO - zero_shot - Progress saved after 175 samples.
+2025-12-01 23:16:29 - INFO - zero_shot - Progress saved after 200 samples.
+2025-12-01 23:22:12 - INFO - zero_shot - Progress saved after 225 samples.
+2025-12-01 23:27:26 - INFO - zero_shot - Progress saved after 250 samples.
+2025-12-01 23:32:29 - INFO - zero_shot - Progress saved after 275 samples.
+2025-12-01 23:37:23 - INFO - zero_shot - Progress saved after 300 samples.
+2025-12-01 23:43:20 - INFO - zero_shot - Progress saved after 325 samples.
+2025-12-01 23:48:41 - INFO - zero_shot - Progress saved after 350 samples.
+2025-12-01 23:54:18 - INFO - zero_shot - Progress saved after 375 samples.
+2025-12-02 00:00:16 - INFO - zero_shot - Progress saved after 400 samples.
+2025-12-02 00:05:54 - INFO - zero_shot - Progress saved after 425 samples.
+2025-12-02 00:12:06 - INFO - zero_shot - Progress saved after 450 samples.
+2025-12-02 00:18:13 - INFO - zero_shot - Progress saved after 475 samples.
+2025-12-02 00:25:00 - INFO - zero_shot - Progress saved after 500 samples.
+2025-12-02 00:30:49 - INFO - zero_shot - Progress saved after 525 samples.
+2025-12-02 00:37:19 - INFO - zero_shot - Progress saved after 550 samples.
+2025-12-02 00:43:27 - INFO - zero_shot - Progress saved after 575 samples.
+2025-12-02 00:50:14 - INFO - zero_shot - Progress saved after 600 samples.
+2025-12-02 00:56:27 - INFO - zero_shot - Progress saved after 625 samples.
+2025-12-02 01:01:47 - INFO - zero_shot - Progress saved after 650 samples.
+2025-12-02 01:07:49 - INFO - zero_shot - Progress saved after 675 samples.
+2025-12-02 01:14:05 - INFO - zero_shot - Progress saved after 700 samples.
+2025-12-02 01:20:01 - INFO - zero_shot - Progress saved after 725 samples.
+2025-12-02 01:25:58 - INFO - zero_shot - Progress saved after 750 samples.
+2025-12-02 01:32:28 - INFO - zero_shot - Progress saved after 775 samples.
+2025-12-02 01:38:18 - INFO - zero_shot - Progress saved after 800 samples.
+2025-12-02 01:44:26 - INFO - zero_shot - Progress saved after 825 samples.
+2025-12-02 01:51:04 - INFO - zero_shot - Progress saved after 850 samples.
+2025-12-02 01:57:14 - INFO - zero_shot - Progress saved after 875 samples.
+2025-12-02 02:03:05 - INFO - zero_shot - Progress saved after 900 samples.
+2025-12-02 02:09:06 - INFO - zero_shot - Progress saved after 925 samples.
+2025-12-02 02:15:02 - INFO - zero_shot - Progress saved after 950 samples.
+2025-12-02 02:20:51 - INFO - zero_shot - Progress saved after 975 samples.
+2025-12-02 02:26:50 - INFO - zero_shot - Progress saved after 1000 samples.
+2025-12-02 02:31:33 - INFO - zero_shot - Progress saved after 1025 samples.
+2025-12-02 02:36:35 - INFO - zero_shot - Progress saved after 1050 samples.
+2025-12-02 02:41:37 - INFO - zero_shot - Progress saved after 1075 samples.
+2025-12-02 02:46:44 - INFO - zero_shot - Progress saved after 1100 samples.
+2025-12-02 02:51:23 - INFO - zero_shot - Progress saved after 1125 samples.
+2025-12-02 02:55:39 - INFO - zero_shot - Progress saved after 1150 samples.
+2025-12-02 02:59:52 - INFO - zero_shot - Progress saved after 1175 samples.
+2025-12-02 03:04:38 - INFO - zero_shot - Progress saved after 1200 samples.
+2025-12-02 03:09:32 - INFO - zero_shot - Progress saved after 1225 samples.
+2025-12-02 03:14:56 - INFO - zero_shot - Progress saved after 1250 samples.
+2025-12-02 03:19:34 - INFO - zero_shot - Progress saved after 1275 samples.
+2025-12-02 03:23:58 - INFO - zero_shot - Progress saved after 1300 samples.
+2025-12-02 03:28:16 - INFO - zero_shot - Progress saved after 1325 samples.
+2025-12-02 03:33:25 - INFO - zero_shot - Progress saved after 1350 samples.
+2025-12-02 03:37:44 - INFO - zero_shot - Progress saved after 1375 samples.
+2025-12-02 03:42:28 - INFO - zero_shot - Progress saved after 1400 samples.
+2025-12-02 03:47:22 - INFO - zero_shot - Progress saved after 1425 samples.
+2025-12-02 03:51:51 - INFO - zero_shot - Progress saved after 1450 samples.
+2025-12-02 03:57:01 - INFO - zero_shot - Progress saved after 1475 samples.
+2025-12-02 04:02:02 - INFO - zero_shot - Progress saved after 1500 samples.
+2025-12-02 04:02:02 - INFO - zero_shot - Final progress saved to logs/predictions/zero_shot_progress.csv
+2025-12-02 04:02:02 - INFO - zero_shot - Zero-shot metrics: {
+  "accuracy": 0.66,
+  "auroc": 0.6460190136660724,
+  "macro_f1": 0.39759036144578314
+}
+2025-12-02 04:02:02 - INFO - zero_shot - Predictions saved to logs/predictions/zero_shot_predictions.csv

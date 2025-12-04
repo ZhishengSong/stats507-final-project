@@ -1,0 +1,14 @@
+2025-11-29 21:22:03 - INFO - zero_shot - Using device cuda
+Encountered exception while importing matplotlib: Matplotlib requires numpy>=1.23; you have 1.22.3
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 142, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 61, in main
+    processor = AutoProcessor.from_pretrained(args.model_name, trust_remote_code=True)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 354, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized processing class in Qwen/Qwen-VL-Chat. Can't instantiate a processor, a tokenizer, an image processor or a feature extractor for this model. Make sure the repository contains the files of at least one of those processing classes.

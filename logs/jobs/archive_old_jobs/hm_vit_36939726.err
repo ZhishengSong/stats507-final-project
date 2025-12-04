@@ -1,0 +1,33 @@
+2025-11-28 10:19:11 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 217, in <module>
+    main()
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 141, in main
+    model = build_model_from_args(args)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 130, in build_model_from_args
+    return build_model("vit", model_name=args.vit_model_name)
+  File "/home/zhisheng/stats507/models/__init__.py", line 18, in build_model
+    return build_vit_model(**kwargs)
+  File "/home/zhisheng/stats507/models/vit.py", line 38, in build_vit_model
+    return VitClassifier(**kwargs)
+  File "/home/zhisheng/stats507/models/vit.py", line 22, in __init__
+    self.model = AutoModelForImageClassification.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 563, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3677, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4155, in _load_pretrained_model
+    raise RuntimeError(f"Error(s) in loading state_dict for {model.__class__.__name__}:\n\t{error_msg}")
+RuntimeError: Error(s) in loading state_dict for ViTForImageClassification:
+	size mismatch for classifier.weight: copying a param with shape torch.Size([1000, 768]) from checkpoint, the shape in current model is torch.Size([2, 768]).
+	size mismatch for classifier.bias: copying a param with shape torch.Size([1000]) from checkpoint, the shape in current model is torch.Size([2]).
+	You may consider adding `ignore_mismatched_sizes=True` in the model `from_pretrained` method.

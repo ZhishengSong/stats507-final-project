@@ -1,0 +1,21 @@
+# Experiment environment requirements
+# ---------------------------------------------------------------------------
+# PyTorch / torchvision / torchaudio are provided by the cluster module
+# `module load pytorch/2.0.1`.  If you are running locally instead, install
+# torch==2.0.1, torchvision==0.15.2, and torchaudio==2.0.2 separately before
+# installing the packages below.
+accelerate==0.30.1
+datasets==2.19.1
+evaluate==0.4.2
+huggingface-hub==0.23.2
+numpy>=1.24.4
+pandas>=2.2.2
+peft==0.11.1
+Pillow>=10.2.0
+pyyaml>=6.0.1
+requests>=2.31.0
+scikit-learn>=1.4.2
+sentencepiece>=0.2.0
+tqdm>=4.66.4
+transformers==4.41.2
+

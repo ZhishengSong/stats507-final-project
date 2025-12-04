@@ -1,0 +1,117 @@
+Repo card metadata block was not found. Setting CardData to empty.
+2025-11-28 00:14:52 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-11-28 00:15:02 - INFO - train - Epoch 1/5
+2025-11-28 00:39:58 - INFO - train - Train metrics: {
+  "accuracy": 0.7085882352941176,
+  "auroc": 0.7297651575900825,
+  "macro_f1": 0.645704835182872,
+  "loss": 0.5688727381089155
+}
+2025-11-28 00:42:20 - INFO - train - Val metrics: {
+  "accuracy": 0.6461538461538462,
+  "auroc": 0.6926332944758198,
+  "macro_f1": 0.5967565198334429,
+  "loss": 0.6558259684305925
+}
+2025-11-28 00:42:25 - INFO - train - Saved new best checkpoint with AUROC=0.6926
+2025-11-28 00:42:25 - INFO - train - Epoch 2/5
+2025-11-28 00:58:14 - INFO - train - Train metrics: {
+  "accuracy": 0.8495294117647059,
+  "auroc": 0.9124461334373273,
+  "macro_f1": 0.8324336425895834,
+  "loss": 0.35417489433288574
+}
+2025-11-28 00:59:55 - INFO - train - Val metrics: {
+  "accuracy": 0.6509615384615385,
+  "auroc": 0.693274632079707,
+  "macro_f1": 0.6100124892694552,
+  "loss": 0.7654326548943153
+}
+2025-11-28 01:00:01 - INFO - train - Saved new best checkpoint with AUROC=0.6933
+2025-11-28 01:00:01 - INFO - train - Epoch 3/5
+2025-11-28 01:16:04 - INFO - train - Train metrics: {
+  "accuracy": 0.9495294117647058,
+  "auroc": 0.9860629079141718,
+  "macro_f1": 0.9445162748076272,
+  "loss": 0.14329443070467782
+}
+2025-11-28 01:17:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6692307692307692,
+  "auroc": 0.6915317028267898,
+  "macro_f1": 0.6341608072676999,
+  "loss": 1.5196931838989258
+}
+2025-11-28 01:17:54 - INFO - train - Epoch 4/5
+2025-11-28 01:33:14 - INFO - train - Train metrics: {
+  "accuracy": 0.9870588235294118,
+  "auroc": 0.9983848567417002,
+  "macro_f1": 0.9858333333333333,
+  "loss": 0.042713603917290184
+}
+2025-11-28 01:34:57 - INFO - train - Val metrics: {
+  "accuracy": 0.6701923076923076,
+  "auroc": 0.6876497240362016,
+  "macro_f1": 0.6304641263665172,
+  "loss": 1.957155455992772
+}
+2025-11-28 01:34:57 - INFO - train - Epoch 5/5
+2025-11-28 01:50:24 - INFO - train - Train metrics: {
+  "accuracy": 0.9977647058823529,
+  "auroc": 0.9998684364711024,
+  "macro_f1": 0.9975587280468241,
+  "loss": 0.007231814707026762
+}
+2025-11-28 01:52:09 - INFO - train - Val metrics: {
+  "accuracy": 0.6653846153846154,
+  "auroc": 0.6856125340003244,
+  "macro_f1": 0.6308731677266961,
+  "loss": 2.210582370024461
+}
+2025-11-28 01:52:09 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-28 01:59:59 - INFO - train - Test metrics: {
+  "accuracy": 0.687,
+  "auroc": 0.7394515212609971,
+  "macro_f1": 0.6433996206642895,
+  "loss": 0.682373753786087
+}
+2025-11-28 01:59:59 - INFO - train - Saved test predictions to logs/test_predictions.csv
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/eval/run_eval.py", line 106, in <module>
+    main()
+  File "/home/zhisheng/stats507/eval/run_eval.py", line 94, in main
+    metrics, labels, probs = evaluate_model(model, dataloader, device)
+  File "/home/zhisheng/stats507/train/loops.py", line 99, in evaluate_model
+    outputs = model(batch)
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/stats507/models/vilt.py", line 45, in forward
+    outputs = self.model(
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/vilt/modeling_vilt.py", line 821, in forward
+    embedding_output, attention_mask = self.embeddings(
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/vilt/modeling_vilt.py", line 205, in forward
+    text_embeds = self.text_embeddings(
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/vilt/modeling_vilt.py", line 286, in forward
+    embeddings += position_embeddings
+RuntimeError: The size of tensor a (44) must match the size of tensor b (40) at non-singleton dimension 1

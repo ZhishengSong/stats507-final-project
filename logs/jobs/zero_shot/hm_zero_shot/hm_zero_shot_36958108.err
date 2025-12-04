@@ -1,0 +1,15 @@
+2025-11-29 20:44:09 - INFO - zero_shot - Using device cuda
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 142, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 62, in main
+    model = AutoModelForVision2Seq.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3372, in from_pretrained
+    raise ImportError(
+ImportError: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`

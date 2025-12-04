@@ -1,0 +1,147 @@
+2025-12-02 16:15:08 - INFO - bitfit - Using device cuda
+2025-12-02 16:15:21 - INFO - bitfit - Epoch 1/10
+2025-12-02 16:31:08 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.5909411764705882,
+  "auroc": 0.4584352618298547,
+  "macro_f1": 0.4333084621430322,
+  "loss": 0.6777351505055147
+}
+2025-12-02 16:32:54 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5711538461538461,
+  "auroc": 0.48036186531155806,
+  "macro_f1": 0.38329318037983096,
+  "loss": 0.7000705764843868
+}
+2025-12-02 16:32:57 - INFO - bitfit - Saved new best checkpoint with AUROC=0.4804
+2025-12-02 16:32:57 - INFO - bitfit - Epoch 2/10
+2025-12-02 16:48:36 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6436470588235295,
+  "auroc": 0.5079679635252958,
+  "macro_f1": 0.39688253874865415,
+  "loss": 0.6545539407169118
+}
+2025-12-02 16:50:26 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5721153846153846,
+  "auroc": 0.5224619064326161,
+  "macro_f1": 0.36803496836761024,
+  "loss": 0.6970952446644123
+}
+2025-12-02 16:50:28 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5225
+2025-12-02 16:50:28 - INFO - bitfit - Epoch 3/10
+2025-12-02 17:06:17 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6452941176470588,
+  "auroc": 0.580454603058571,
+  "macro_f1": 0.39628006753182543,
+  "loss": 0.6420822035845588
+}
+2025-12-02 17:08:07 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5721153846153846,
+  "auroc": 0.5384406442047602,
+  "macro_f1": 0.36803496836761024,
+  "loss": 0.6940301198225755
+}
+2025-12-02 17:08:09 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5384
+2025-12-02 17:08:09 - INFO - bitfit - Epoch 4/10
+2025-12-02 17:23:25 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6475294117647059,
+  "auroc": 0.6205713567765401,
+  "macro_f1": 0.4157121799942383,
+  "loss": 0.6320902458639706
+}
+2025-12-02 17:25:08 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5778846153846153,
+  "auroc": 0.5416171516310724,
+  "macro_f1": 0.38828365438080065,
+  "loss": 0.6984220018753639
+}
+2025-12-02 17:25:10 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5416
+2025-12-02 17:25:10 - INFO - bitfit - Epoch 5/10
+2025-12-02 17:40:20 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6545882352941177,
+  "auroc": 0.6477156262481387,
+  "macro_f1": 0.4600558602892158,
+  "loss": 0.6221488396139706
+}
+2025-12-02 17:42:06 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5778846153846153,
+  "auroc": 0.5480135510863127,
+  "macro_f1": 0.413161199435989,
+  "loss": 0.7013619973109319
+}
+2025-12-02 17:42:08 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5480
+2025-12-02 17:42:08 - INFO - bitfit - Epoch 6/10
+2025-12-02 17:57:25 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6661176470588235,
+  "auroc": 0.6648669597807814,
+  "macro_f1": 0.5130134011250657,
+  "loss": 0.6141308880974264
+}
+2025-12-02 17:59:10 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.573076923076923,
+  "auroc": 0.553968559367113,
+  "macro_f1": 0.4307692307692307,
+  "loss": 0.6995024791130653
+}
+2025-12-02 17:59:12 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5540
+2025-12-02 17:59:12 - INFO - bitfit - Epoch 7/10
+2025-12-02 18:14:43 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6738823529411765,
+  "auroc": 0.677214048905977,
+  "macro_f1": 0.5490631261098307,
+  "loss": 0.6080937930836398
+}
+2025-12-02 18:16:25 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5798076923076924,
+  "auroc": 0.5550437429971593,
+  "macro_f1": 0.44745349347553065,
+  "loss": 0.7025522782252385
+}
+2025-12-02 18:16:27 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5550
+2025-12-02 18:16:27 - INFO - bitfit - Epoch 8/10
+2025-12-02 18:33:07 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6789411764705883,
+  "auroc": 0.6873168225637072,
+  "macro_f1": 0.5626545752074343,
+  "loss": 0.6027998334099265
+}
+2025-12-02 18:34:56 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5836538461538462,
+  "auroc": 0.5593520226656254,
+  "macro_f1": 0.466717825375904,
+  "loss": 0.6999108736331646
+}
+2025-12-02 18:34:59 - INFO - bitfit - Saved new best checkpoint with AUROC=0.5594
+2025-12-02 18:34:59 - INFO - bitfit - Epoch 9/10
+2025-12-02 18:51:20 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6812941176470588,
+  "auroc": 0.694663621306378,
+  "macro_f1": 0.5764505980707381,
+  "loss": 0.5989571748621324
+}
+2025-12-02 18:53:05 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5807692307692308,
+  "auroc": 0.558401333982216,
+  "macro_f1": 0.4547378547378548,
+  "loss": 0.7067074014590337
+}
+2025-12-02 18:53:05 - INFO - bitfit - Epoch 10/10
+2025-12-02 19:09:39 - INFO - bitfit - Train metrics: {
+  "accuracy": 0.6864705882352942,
+  "auroc": 0.6942184990408311,
+  "macro_f1": 0.5857678519975279,
+  "loss": 0.5989924460018382
+}
+2025-12-02 19:11:29 - INFO - bitfit - Val metrics: {
+  "accuracy": 0.5826923076923077,
+  "auroc": 0.5592727986086746,
+  "macro_f1": 0.4585386686116536,
+  "loss": 0.7054971190599295
+}
+2025-12-02 19:11:29 - INFO - bitfit - Evaluating best checkpoint on test split.
+2025-12-02 19:17:15 - INFO - bitfit - Test metrics: {
+  "accuracy": 0.5953333333333334,
+  "auroc": 0.581664681085044,
+  "macro_f1": 0.46140067767093207,
+  "loss": 0.6822674278418223
+}
+2025-12-02 19:17:15 - INFO - bitfit - Saved test predictions to logs/predictions/vilt_bitfit/test_predictions.csv

@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/zhisheng/stats507/scripts/batch_download_images.py", line 11, in <module>
+    from datasets import load_dataset
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/__init__.py", line 17, in <module>
+    from .arrow_dataset import Column, Dataset
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 59, in <module>
+    import pandas as pd
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/compat/__init__.py", line 18, in <module>
+    from pandas.compat.numpy import (
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject

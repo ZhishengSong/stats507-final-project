@@ -1,0 +1,120 @@
+2025-12-02 23:22:41 - INFO - lora - Using device cuda
+2025-12-02 23:22:55 - INFO - lora - Epoch 1/8
+2025-12-03 00:59:36 - INFO - lora - Using device cuda
+2025-12-03 00:59:49 - INFO - lora - Epoch 1/8
+2025-12-03 01:11:09 - INFO - lora - Using device cuda
+2025-12-03 01:11:24 - INFO - lora - Epoch 1/8
+2025-12-03 01:29:53 - INFO - lora - Train metrics: {
+  "accuracy": 0.6088235294117647,
+  "auroc": 0.540963516412112,
+  "macro_f1": 0.4395892477198743,
+  "loss": 0.655851806640625
+}
+2025-12-03 01:31:46 - INFO - lora - Val metrics: {
+  "accuracy": 0.5817307692307693,
+  "auroc": 0.5845018881733574,
+  "macro_f1": 0.41349657937825973,
+  "loss": 0.7120222504322345
+}
+2025-12-03 01:31:48 - INFO - lora - Saved new best checkpoint with AUROC=0.5845
+2025-12-03 01:31:48 - INFO - lora - Epoch 2/8
+2025-12-03 01:50:15 - INFO - lora - Train metrics: {
+  "accuracy": 0.7089411764705882,
+  "auroc": 0.7200080328085718,
+  "macro_f1": 0.6441921444312221,
+  "loss": 0.5793827263327206
+}
+2025-12-03 01:52:14 - INFO - lora - Val metrics: {
+  "accuracy": 0.625,
+  "auroc": 0.6113645023408822,
+  "macro_f1": 0.5795305172106369,
+  "loss": 0.693061442558582
+}
+2025-12-03 01:52:17 - INFO - lora - Saved new best checkpoint with AUROC=0.6114
+2025-12-03 01:52:17 - INFO - lora - Epoch 3/8
+2025-12-03 02:11:36 - INFO - lora - Train metrics: {
+  "accuracy": 0.7449411764705882,
+  "auroc": 0.7710604231946078,
+  "macro_f1": 0.7063903281519861,
+  "loss": 0.5387530589384191
+}
+2025-12-03 02:13:32 - INFO - lora - Val metrics: {
+  "accuracy": 0.614423076923077,
+  "auroc": 0.6001976828849629,
+  "macro_f1": 0.5470889955353991,
+  "loss": 0.7163721029575054
+}
+2025-12-03 02:13:32 - INFO - lora - Epoch 4/8
+2025-12-03 02:31:44 - INFO - lora - Train metrics: {
+  "accuracy": 0.7690588235294118,
+  "auroc": 0.8007450411820436,
+  "macro_f1": 0.7362726437765347,
+  "loss": 0.5088699592141545
+}
+2025-12-03 02:33:37 - INFO - lora - Val metrics: {
+  "accuracy": 0.6125,
+  "auroc": 0.6110325158165171,
+  "macro_f1": 0.556692711005152,
+  "loss": 0.7156868998820965
+}
+2025-12-03 02:33:37 - INFO - lora - Epoch 5/8
+2025-12-03 02:51:30 - INFO - lora - Train metrics: {
+  "accuracy": 0.7867058823529411,
+  "auroc": 0.8231413599656109,
+  "macro_f1": 0.7598814647578116,
+  "loss": 0.4862006261488971
+}
+2025-12-03 02:53:24 - INFO - lora - Val metrics: {
+  "accuracy": 0.6153846153846154,
+  "auroc": 0.5887856461099102,
+  "macro_f1": 0.5437876155884263,
+  "loss": 0.7565606905863835
+}
+2025-12-03 02:53:24 - INFO - lora - Epoch 6/8
+2025-12-03 03:11:03 - INFO - lora - Train metrics: {
+  "accuracy": 0.8027058823529412,
+  "auroc": 0.8402883725095922,
+  "macro_f1": 0.7782069609359046,
+  "loss": 0.4653231201171875
+}
+2025-12-03 03:12:56 - INFO - lora - Val metrics: {
+  "accuracy": 0.6307692307692307,
+  "auroc": 0.6143146553187637,
+  "macro_f1": 0.5888718683599348,
+  "loss": 0.7270234470184033
+}
+2025-12-03 03:12:58 - INFO - lora - Saved new best checkpoint with AUROC=0.6143
+2025-12-03 03:12:58 - INFO - lora - Epoch 7/8
+2025-12-03 03:30:32 - INFO - lora - Train metrics: {
+  "accuracy": 0.8118823529411765,
+  "auroc": 0.8504253212594637,
+  "macro_f1": 0.7894764429460249,
+  "loss": 0.4523393877814798
+}
+2025-12-03 03:32:25 - INFO - lora - Val metrics: {
+  "accuracy": 0.6298076923076923,
+  "auroc": 0.5976021518762897,
+  "macro_f1": 0.5724227632552681,
+  "loss": 0.753358375109159
+}
+2025-12-03 03:32:25 - INFO - lora - Epoch 8/8
+2025-12-03 03:49:28 - INFO - lora - Train metrics: {
+  "accuracy": 0.8205882352941176,
+  "auroc": 0.8567766004745594,
+  "macro_f1": 0.7994255609960679,
+  "loss": 0.4405944860121783
+}
+2025-12-03 03:51:20 - INFO - lora - Val metrics: {
+  "accuracy": 0.6288461538461538,
+  "auroc": 0.6010012411768922,
+  "macro_f1": 0.5757237554112554,
+  "loss": 0.7532142345721905
+}
+2025-12-03 03:51:20 - INFO - lora - Evaluating best checkpoint on test split.
+2025-12-03 03:57:36 - INFO - lora - Test metrics: {
+  "accuracy": 0.644,
+  "auroc": 0.6599028592375367,
+  "macro_f1": 0.5978786467035087,
+  "loss": 0.6852110141515732
+}
+2025-12-03 03:57:36 - INFO - lora - Saved test predictions to logs/predictions/vilt_lora/test_predictions.csv

@@ -1,0 +1,122 @@
+Repo card metadata block was not found. Setting CardData to empty.
+2025-11-28 16:05:58 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-11-28 16:06:08 - INFO - train - Epoch 1/10
+2025-11-28 16:23:35 - INFO - train - Train metrics: {
+  "accuracy": 0.6971764705882353,
+  "auroc": 0.7000153621722764,
+  "macro_f1": 0.6195247668004534,
+  "loss": 0.586980666216682
+}
+2025-11-28 16:25:27 - INFO - train - Val metrics: {
+  "accuracy": 0.6423076923076924,
+  "auroc": 0.6856842129089942,
+  "macro_f1": 0.6274038461538463,
+  "loss": 0.6419112214675317
+}
+2025-11-28 16:25:33 - INFO - train - Saved new best checkpoint with AUROC=0.6857
+2025-11-28 16:25:33 - INFO - train - Epoch 2/10
+2025-11-28 16:42:16 - INFO - train - Train metrics: {
+  "accuracy": 0.8030588235294117,
+  "auroc": 0.8668998610575521,
+  "macro_f1": 0.778545292366905,
+  "loss": 0.4312165017969468
+}
+2025-11-28 16:44:08 - INFO - train - Val metrics: {
+  "accuracy": 0.6134615384615385,
+  "auroc": 0.6830547287330564,
+  "macro_f1": 0.516359648513958,
+  "loss": 0.7895213585633498
+}
+2025-11-28 16:44:08 - INFO - train - Epoch 3/10
+2025-11-28 17:01:04 - INFO - train - Train metrics: {
+  "accuracy": 0.9135294117647059,
+  "auroc": 0.9664102356304617,
+  "macro_f1": 0.9047469326110964,
+  "loss": 0.22631397909276627
+}
+2025-11-28 17:02:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6442307692307693,
+  "auroc": 0.6813117994801393,
+  "macro_f1": 0.5787629994526546,
+  "loss": 1.3099400391945473
+}
+2025-11-28 17:02:54 - INFO - train - Epoch 4/10
+2025-11-28 17:19:34 - INFO - train - Train metrics: {
+  "accuracy": 0.9654117647058823,
+  "auroc": 0.9931672176078294,
+  "macro_f1": 0.962147824816195,
+  "loss": 0.10556084916170906
+}
+2025-11-28 17:21:24 - INFO - train - Val metrics: {
+  "accuracy": 0.6711538461538461,
+  "auroc": 0.7091986675268136,
+  "macro_f1": 0.6204865556978233,
+  "loss": 1.5224195746275095
+}
+2025-11-28 17:21:29 - INFO - train - Saved new best checkpoint with AUROC=0.7092
+2025-11-28 17:21:29 - INFO - train - Epoch 5/10
+2025-11-28 17:38:05 - INFO - train - Train metrics: {
+  "accuracy": 0.9882352941176471,
+  "auroc": 0.9986484370500543,
+  "macro_f1": 0.9871598105090154,
+  "loss": 0.042273995034834914
+}
+2025-11-28 17:39:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6461538461538462,
+  "auroc": 0.7068181732441496,
+  "macro_f1": 0.5909695236385244,
+  "loss": 2.4291653064581062
+}
+2025-11-28 17:39:54 - INFO - train - Epoch 6/10
+2025-11-28 17:56:19 - INFO - train - Train metrics: {
+  "accuracy": 0.9947058823529412,
+  "auroc": 0.9997111585271629,
+  "macro_f1": 0.9942180401108993,
+  "loss": 0.01715912870799794
+}
+2025-11-28 17:58:08 - INFO - train - Val metrics: {
+  "accuracy": 0.6625,
+  "auroc": 0.7287179661298293,
+  "macro_f1": 0.629355484277764,
+  "loss": 2.2669238090515136
+}
+2025-11-28 17:58:14 - INFO - train - Saved new best checkpoint with AUROC=0.7287
+2025-11-28 17:58:14 - INFO - train - Epoch 7/10
+Traceback (most recent call last):
+  File "/home/zhisheng/stats507/data/datasets.py", line 206, in __getitem__
+    image = _ensure_rgb(img_data, cache_dir=self.cache_dir)
+  File "/home/zhisheng/stats507/data/datasets.py", line 105, in _ensure_rgb
+    raise FileNotFoundError(f"Image not found at any URL. Last error: {last_error}. Tried: {urls_to_try}")
+FileNotFoundError: Image not found at any URL. Last error: 404 Client Error: Not Found for url: https://github.com/facebookresearch/mmf/raw/main/projects/hateful_memes/data/img/15078.png. Tried: ['https://huggingface.co/datasets/neuralcatcher/hateful_memes/resolve/main/img/15078.png', 'https://huggingface.co/datasets/limjiayi/hateful_memes_expanded/resolve/main/img/15078.png', 'https://github.com/facebookresearch/mmf/raw/main/projects/hateful_memes/data/img/15078.png']
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 217, in <module>
+    main()
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 168, in main
+    train_stats = train_one_epoch(
+  File "/home/zhisheng/stats507/train/loops.py", line 51, in train_one_epoch
+    for step, batch in enumerate(dataloader, start=1):
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/zhisheng/stats507/data/datasets.py", line 208, in __getitem__
+    raise RuntimeError(f"Failed to load/convert image at index {index}. Image data type: {type(sample.get('img'))}. Error: {e}") from e
+RuntimeError: Failed to load/convert image at index 972. Image data type: <class 'str'>. Error: Image not found at any URL. Last error: 404 Client Error: Not Found for url: https://github.com/facebookresearch/mmf/raw/main/projects/hateful_memes/data/img/15078.png. Tried: ['https://huggingface.co/datasets/neuralcatcher/hateful_memes/resolve/main/img/15078.png', 'https://huggingface.co/datasets/limjiayi/hateful_memes_expanded/resolve/main/img/15078.png', 'https://github.com/facebookresearch/mmf/raw/main/projects/hateful_memes/data/img/15078.png']

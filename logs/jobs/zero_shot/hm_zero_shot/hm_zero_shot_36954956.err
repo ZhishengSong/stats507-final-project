@@ -1,0 +1,18 @@
+2025-11-29 14:58:51 - INFO - zero_shot - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+A new version of the following files was downloaded from https://huggingface.co/Qwen/Qwen-VL-Chat:
+- configuration_qwen.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 146, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 95, in main
+    processor = AutoProcessor.from_pretrained(args.model_name, trust_remote_code=True)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/processing_auto.py", line 342, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized processing class in Qwen/Qwen-VL-Chat. Can't instantiate a processor, a tokenizer, an image processor or a feature extractor for this model. Make sure the repository contains the files of at least one of those processing classes.

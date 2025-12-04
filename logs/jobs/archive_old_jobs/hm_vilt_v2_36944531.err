@@ -1,0 +1,38 @@
+Repo card metadata block was not found. Setting CardData to empty.
+2025-11-28 16:00:59 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-11-28 16:01:09 - INFO - train - Epoch 1/10
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 217, in <module>
+    main()
+  File "/home/zhisheng/stats507/train/run_finetune.py", line 168, in main
+    train_stats = train_one_epoch(
+  File "/home/zhisheng/stats507/train/loops.py", line 54, in train_one_epoch
+    outputs = model(batch)
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/stats507/models/vilt.py", line 45, in forward
+    outputs = self.model(
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/vilt/modeling_vilt.py", line 821, in forward
+    embedding_output, attention_mask = self.embeddings(
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/vilt/modeling_vilt.py", line 205, in forward
+    text_embeds = self.text_embeddings(
+  File "/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/vilt/modeling_vilt.py", line 286, in forward
+    embeddings += position_embeddings
+RuntimeError: The size of tensor a (59) must match the size of tensor b (40) at non-singleton dimension 1

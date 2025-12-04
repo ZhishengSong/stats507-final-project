@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/zhisheng/stats507/scripts/download_with_hf_hub.py", line 6, in <module>
+    from huggingface_hub import snapshot_download
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/__init__.py", line 1038, in __getattr__
+    submod = importlib.import_module(submod_path)
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/_snapshot_download.py", line 5, in <module>
+    import httpx
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/httpx/__init__.py", line 2, in <module>
+    from ._api import *
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/httpx/_api.py", line 6, in <module>
+    from ._client import Client
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/httpx/_client.py", line 13, in <module>
+    from ._auth import Auth, BasicAuth, FunctionAuth
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/httpx/_auth.py", line 12, in <module>
+    from ._models import Cookies, Request, Response
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/httpx/_models.py", line 48, in <module>
+    from ._urls import URL
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/httpx/_urls.py", line 6, in <module>
+    import idna
+ModuleNotFoundError: No module named 'idna'

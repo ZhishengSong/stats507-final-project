@@ -1,0 +1,35 @@
+
+============================================================
+Testing: neuralcatcher/hateful_memes
+============================================================
+✓ Dataset loaded: 5 samples
+  Features: {'id': Value('string'), 'img': Value('string'), 'label': Value('int64'), 'text': Value('string')}
+  Image field type: <class 'str'>
+  Image field value: img/42953.png
+  ✗ Image is just a path string: img/42953.png
+
+============================================================
+Testing: facebook/hateful_memes
+============================================================
+✗ Error: DatasetNotFoundError: Dataset 'facebook/hateful_memes' doesn't exist on the Hub or cannot be accessed.
+
+============================================================
+Testing: HuggingFaceM4/Hateful_Memes
+============================================================
+✗ Error: DatasetNotFoundError: Dataset 'HuggingFaceM4/Hateful_Memes' doesn't exist on the Hub or cannot be accessed.
+
+============================================================
+Testing: limjiayi/hateful_memes_expanded
+============================================================
+✓ Dataset loaded: 5 samples
+  Features: {'id': Value('string'), 'img': Value('string'), 'label': Value('int64'), 'text': Value('string')}
+  Image field type: <class 'str'>
+  Image field value: img/42953.png
+  ✗ Image is just a path string: img/42953.png
+
+============================================================
+SUMMARY
+============================================================
+No working datasets found with PIL images.
+
+Recommendation: Use manual download or different data source.

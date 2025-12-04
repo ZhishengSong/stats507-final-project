@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 14, in <module>
+    from transformers import Qwen2VLForConditionalGeneration
+ImportError: cannot import name 'Qwen2VLForConditionalGeneration' from 'transformers' (/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/__init__.py)

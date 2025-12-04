@@ -1,0 +1,16 @@
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'neuralcatcher/hateful_memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Repo card metadata block was not found. Setting CardData to empty.
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'facebook/hateful_memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'HuggingFaceM4/Hateful_Memes' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'limjiayi/hateful_memes_expanded' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Generating train split:   0%|          | 0/12887 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 12887/12887 [00:00<00:00, 331237.49 examples/s]
+Generating validation split:   0%|          | 0/1040 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 1040/1040 [00:00<00:00, 136034.31 examples/s]
+Generating test split:   0%|          | 0/3000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 3000/3000 [00:00<00:00, 229820.68 examples/s]

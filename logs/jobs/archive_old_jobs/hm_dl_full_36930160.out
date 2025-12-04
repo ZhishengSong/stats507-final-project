@@ -1,0 +1,6 @@
+==========================================
+使用 huggingface_hub 下载完整数据集
+==========================================
+开始时间: Thu Nov 27 23:58:11 EST 2025
+
+Error importing huggingface_hub._snapshot_download: No module named 'idna'

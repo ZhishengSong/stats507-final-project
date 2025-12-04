@@ -1,0 +1,27 @@
+2025-11-29 16:33:22 - INFO - zero_shot - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Traceback (most recent call last):
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 945, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 647, in __getitem__
+    raise KeyError(key)
+KeyError: 'qwen2_vl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/sw/pkgs/arc/python/3.10.4/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 146, in <module>
+    main()
+  File "/home/zhisheng/stats507/zero_shot/run_qwenvl.py", line 96, in main
+    model = AutoModelForVision2Seq.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 523, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+  File "/home/zhisheng/hm_env/lib/python3.10/site-packages/transformers/models/auto/configuration_auto.py", line 947, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `qwen2_vl` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.

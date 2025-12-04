@@ -1,0 +1,152 @@
+Repo card metadata block was not found. Setting CardData to empty.
+2025-11-29 00:40:07 - INFO - train - Using device cuda
+/home/zhisheng/hm_env/lib/python3.10/site-packages/huggingface_hub/file_download.py:942: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+/sw/pkgs/arc/python/3.10.4/pytorch/2.0.1/lib/python3.10/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-11-29 00:40:16 - INFO - train - Epoch 1/10
+2025-11-29 00:56:09 - INFO - train - Train metrics: {
+  "accuracy": 0.6934117647058824,
+  "auroc": 0.7009660703279281,
+  "macro_f1": 0.616830998097215,
+  "loss": 0.5878124497357536
+}
+2025-11-29 00:57:56 - INFO - train - Val metrics: {
+  "accuracy": 0.6326923076923077,
+  "auroc": 0.6720086316496334,
+  "macro_f1": 0.61203125,
+  "loss": 0.661366573205361
+}
+2025-11-29 00:58:01 - INFO - train - Saved new best checkpoint with AUROC=0.6720
+2025-11-29 00:58:01 - INFO - train - Epoch 2/10
+2025-11-29 01:13:22 - INFO - train - Train metrics: {
+  "accuracy": 0.8008235294117647,
+  "auroc": 0.8622917230585905,
+  "macro_f1": 0.7758539058109156,
+  "loss": 0.43817160370770625
+}
+2025-11-29 01:15:03 - INFO - train - Val metrics: {
+  "accuracy": 0.6201923076923077,
+  "auroc": 0.68859286757133,
+  "macro_f1": 0.5554069249592258,
+  "loss": 0.7464828876348643
+}
+2025-11-29 01:15:09 - INFO - train - Saved new best checkpoint with AUROC=0.6886
+2025-11-29 01:15:09 - INFO - train - Epoch 3/10
+2025-11-29 01:30:06 - INFO - train - Train metrics: {
+  "accuracy": 0.9165882352941176,
+  "auroc": 0.9667801183032305,
+  "macro_f1": 0.9081019579841207,
+  "loss": 0.22291334753877975
+}
+2025-11-29 01:31:50 - INFO - train - Val metrics: {
+  "accuracy": 0.6538461538461539,
+  "auroc": 0.7162986520592596,
+  "macro_f1": 0.6036837091140045,
+  "loss": 1.0390005492247067
+}
+2025-11-29 01:31:56 - INFO - train - Saved new best checkpoint with AUROC=0.7163
+2025-11-29 01:31:56 - INFO - train - Epoch 4/10
+2025-11-29 01:47:12 - INFO - train - Train metrics: {
+  "accuracy": 0.9674117647058823,
+  "auroc": 0.9939870572187737,
+  "macro_f1": 0.9643661291317299,
+  "loss": 0.10225794542537016
+}
+2025-11-29 01:48:54 - INFO - train - Val metrics: {
+  "accuracy": 0.6644230769230769,
+  "auroc": 0.7251340206963418,
+  "macro_f1": 0.6212850806396918,
+  "loss": 1.7467415158565227
+}
+2025-11-29 01:49:01 - INFO - train - Saved new best checkpoint with AUROC=0.7251
+2025-11-29 01:49:01 - INFO - train - Epoch 5/10
+2025-11-29 02:04:23 - INFO - train - Train metrics: {
+  "accuracy": 0.9867058823529412,
+  "auroc": 0.998212621529317,
+  "macro_f1": 0.985483022610317,
+  "loss": 0.04836469299652997
+}
+2025-11-29 02:06:07 - INFO - train - Val metrics: {
+  "accuracy": 0.6596153846153846,
+  "auroc": 0.7070671631374236,
+  "macro_f1": 0.6287212585720048,
+  "loss": 2.0950435363329376
+}
+2025-11-29 02:06:07 - INFO - train - Epoch 6/10
+2025-11-29 02:21:43 - INFO - train - Train metrics: {
+  "accuracy": 0.9949411764705882,
+  "auroc": 0.9993784121835201,
+  "macro_f1": 0.9944766639049987,
+  "loss": 0.020738900731591618
+}
+2025-11-29 02:23:34 - INFO - train - Val metrics: {
+  "accuracy": 0.6653846153846154,
+  "auroc": 0.7201089519411781,
+  "macro_f1": 0.6308731677266961,
+  "loss": 2.5332696712934055
+}
+2025-11-29 02:23:34 - INFO - train - Epoch 7/10
+2025-11-29 02:38:45 - INFO - train - Train metrics: {
+  "accuracy": 0.9978823529411764,
+  "auroc": 0.99976361472518,
+  "macro_f1": 0.9976887658916227,
+  "loss": 0.00906179007361917
+}
+2025-11-29 02:40:29 - INFO - train - Val metrics: {
+  "accuracy": 0.6903846153846154,
+  "auroc": 0.7290574978024756,
+  "macro_f1": 0.6761553309427935,
+  "loss": 2.3214272774182834
+}
+2025-11-29 02:40:34 - INFO - train - Saved new best checkpoint with AUROC=0.7291
+2025-11-29 02:40:34 - INFO - train - Epoch 8/10
+2025-11-29 02:55:38 - INFO - train - Train metrics: {
+  "accuracy": 0.9987058823529412,
+  "auroc": 0.9999833505961363,
+  "macro_f1": 0.9985870535570927,
+  "loss": 0.004867971967248356
+}
+2025-11-29 02:57:17 - INFO - train - Val metrics: {
+  "accuracy": 0.6788461538461539,
+  "auroc": 0.719446865179518,
+  "macro_f1": 0.6475291730086251,
+  "loss": 2.628992511675908
+}
+2025-11-29 02:57:17 - INFO - train - Epoch 9/10
+2025-11-29 03:12:08 - INFO - train - Train metrics: {
+  "accuracy": 0.9994117647058823,
+  "auroc": 0.9999031554639144,
+  "macro_f1": 0.9993579427967519,
+  "loss": 0.0023312125766978544
+}
+2025-11-29 03:13:48 - INFO - train - Val metrics: {
+  "accuracy": 0.6836538461538462,
+  "auroc": 0.7235853790116611,
+  "macro_f1": 0.6567825470273914,
+  "loss": 2.592842927345863
+}
+2025-11-29 03:13:48 - INFO - train - Epoch 10/10
+2025-11-29 03:28:38 - INFO - train - Train metrics: {
+  "accuracy": 0.9997647058823529,
+  "auroc": 0.9999998791331843,
+  "macro_f1": 0.9997431197806472,
+  "loss": 0.0004774431481080897
+}
+2025-11-29 03:30:19 - INFO - train - Val metrics: {
+  "accuracy": 0.6817307692307693,
+  "auroc": 0.7225516936971604,
+  "macro_f1": 0.6526333528086306,
+  "loss": 2.7090277231656588
+}
+2025-11-29 03:30:19 - INFO - train - Evaluating best checkpoint on test split.
+2025-11-29 03:35:28 - INFO - train - Test metrics: {
+  "accuracy": 0.702,
+  "auroc": 0.747817082111437,
+  "macro_f1": 0.6848413631022328,
+  "loss": 2.1713374567031862
+}
+2025-11-29 03:35:28 - INFO - train - Saved test predictions to logs/test_predictions.csv

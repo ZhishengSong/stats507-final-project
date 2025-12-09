@@ -57,3 +57,16 @@ conda activate hm_env
 
 # 3) install dependencies
 pip install -r requirements.txt
+
+# 4) Data Preparation (Automated)
+# IMPORTANT: Set cache paths to scratch to avoid disk quota issues
+# (You can also add these lines to your ~/.bashrc)
+export HF_DATASETS_CACHE=/scratch/your_uniqname/hf_cache
+export HF_HOME=/scratch/your_uniqname/hf_home
+
+# Download metadata and setup environment
+bash scripts/shell/setup_hm_env.sh
+python scripts/python/download_dataset.py
+
+# (Optional) Verify that images and labels load correctly
+python scripts/python/test_dataset_fix.py

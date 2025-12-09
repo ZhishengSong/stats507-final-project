@@ -1,6 +1,6 @@
-# Fine-Tuning ViLT for Hateful Meme Detection
+# Fine-Tuning ViLT for Multimodal Sentiment Analysis of Internet Memes
 
-Stats 507 course project on the **Hateful Memes** dataset.
+Stats 507 course final project on the **Hateful Memes** dataset.
 
 This repo implements a reproducible pipeline to study hateful meme classification with
 transformer-based models. Concretely, it contains three comparative experiments:
